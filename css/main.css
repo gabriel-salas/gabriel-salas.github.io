@@ -1,0 +1,44 @@
+.titulo{
+    width: auto;
+    height: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+.frente{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.principal{
+    height: 82%!important;
+}
+.mega-symbol{
+    position: fixed;
+    height: 40%;
+    width: 40%;
+    top: 21%;
+    left: 30%;
+}
+.rattlehead{
+    position: fixed;
+    top: 45%;
+    left: 38%;
+}
+
+@media only screen and (max-width: 425px) {
+    /* For mobile phones: */
+
+    .mega-symbol{
+        position: fixed;
+        height: 35%;
+        width: 100%;
+        top: 20%;
+        left: 0%;
+    }
+    .rattlehead{
+        position: fixed;
+        top: 45%;
+        left: 9%;
+    }
+    
+  }

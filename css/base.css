@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:ital,wght@1,300&family=Shadows+Into+Light&display=swap');
+/*
+==========================================================================================================================================
+                             Remover Bordes
+==========================================================================================================================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url('/img/black-marble.png');
+    background-repeat: repeat-y;
+    background-attachment: local;  
+    background-size: cover;
+    background-color: #d7d7e0!important;
+}
+
+/* Color texto*/
+h1{
+    color: whitesmoke
+}
+
+
+/*
+=================================================================================
+                           Nav
+=================================================================================
+*/
+/* header{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    padding: 20px;
+} */
+.top-logo{
+    position: sticky;
+    padding-right: 5%;
+}
+
+a.tamanio{
+    font-size: 0.8cm;
+}
+.top-logo{
+    position: sticky;
+    padding-right: 5%;
+}
+/*
+=================================================================================
+                           Nav
+=================================================================================
+*/
+.principal{
+    position: absolute;
+    top: 11%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*
+=================================================================================
+                           Inicio de Footer
+=================================================================================
+*/
+footer{
+    background-color: #252525;
+    color: antiquewhite;
+    height: 10%;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+p.pie{
+    font-size: 0.5cm;
+    margin-top: 3px;
+    margin-bottom: auto;
+}
+footer h3{
+    position: absolute;
+    top: 45%;
+    left: 46%;
+    text-align: center;
+    float: left;
+}
+i{
+    color:  rgb(184, 184, 2);
+}
+i:hover{
+    color: yellow;
+}
+i:hover:active{
+    color: orange
+}
+/*
+=================================================================================
+                           Fin de Footer
+=================================================================================
+*/
+
+/*
+=================================================================================
+                             Inicio de Fuentes
+=================================================================================
+*/
+.fuente-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.fuente-pt-sans{
+    font-family: 'PT Sans', sans-serif;
+}
+.fuente-shadows{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200%;
+}
+/*
+=================================================================================
+                             Fin de Fuentes
+=================================================================================
+*/
+
+/*
+=================================================================================
+                             Responsivo
+=================================================================================
+*/
+@media only screen and (max-width: 425px) {
+    footer{
+        position: fixed!important;
+
+    }
+    footer h3{
+        position: absolute;
+        top: 48%;
+        left: 38%;
+        text-align: center;
+        float: left;
+    }
+    
+}

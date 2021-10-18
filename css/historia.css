@@ -1,0 +1,61 @@
+body{
+    height: 100%!important;
+    width: 100%!important;
+}
+.contenedor{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    margin-top: 20px;
+    color: yellow;
+    text-align: center;
+}
+h2{
+    color: yellow;
+    text-align: left;
+    margin-left: 2%;
+}
+p{
+    font-size: 2.5ch;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+img{
+    margin-left: 2%;
+}
+.dave1{
+    height: 10%;
+    width: 10%;
+    padding-bottom: 5%;
+}
+.mega-band{
+    height: 10%;
+    width: 10%;
+    padding-bottom: 5%;
+}
+
+h2 a:hover:active{
+    color: orange
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    body{
+        height: auto;
+    }
+    .dave1{
+        height: 50%;
+        width: 80%;
+        padding-bottom: 5%;
+    }
+    .mega-band{
+        height: 50%;
+        width: 80%;
+        padding-bottom: 5%;
+    }
+}
+

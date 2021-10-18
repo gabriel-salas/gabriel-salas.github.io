@@ -1,0 +1,36 @@
+.container-fluid{
+    height: 200%;
+}
+.titulo{
+    margin-top: 1%;
+    text-align: center;
+}
+/*
+============================================================================
+                                Tablas
+============================================================================
+*/
+caption {
+padding: 10px;
+}
+table{
+    width: 60%!important;
+    margin-left:19%; 
+    margin-right:15%;
+    caption-side: top!important;
+    color: orange!important;
+    border-collapse: collapse!important;
+}
+
+th, td{
+    padding: 14px!important;
+}
+
+thead{
+    background-color: grey;
+    color: whitesmoke;
+}
+tr:hover{
+    color: rgb(250, 79, 79)!important;
+    background-color: rgb(255, 192, 75);
+}
