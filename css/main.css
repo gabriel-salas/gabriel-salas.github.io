@@ -1,3 +1,11 @@
+.principal{
+    position: absolute;
+    top: 11%;
+    height: 100%;
+    width: 100%;
+}
+
+
 .titulo{
     width: auto;
     height: auto;
@@ -10,18 +18,18 @@
     text-align: center;
 }
 .principal{
-    height: 82%!important;
+    height: 75%!important;
 }
 .mega-symbol{
-    position: fixed;
+    position: absolute;
     height: 40%;
     width: 40%;
-    top: 21%;
+    top: 15%;
     left: 30%;
 }
 .rattlehead{
-    position: fixed;
-    top: 45%;
+    position: absolute;
+    top: 40%;
     left: 38%;
 }
 

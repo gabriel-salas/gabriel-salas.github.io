@@ -16,7 +16,7 @@ h2{
     text-align: left;
     margin-left: 2%;
 }
-p{
+p.texto{
     font-size: 2.5ch;
     text-align: left;
     color: whitesmoke;
@@ -27,14 +27,14 @@ img{
     margin-left: 2%;
 }
 .dave1{
-    height: 10%;
-    width: 10%;
-    padding-bottom: 5%;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 2%;
 }
 .mega-band{
-    height: 10%;
-    width: 10%;
-    padding-bottom: 5%;
+    height: 300px;
+    width: 500px;
+    padding-bottom: 1%;
 }
 
 h2 a:hover:active{
@@ -43,19 +43,16 @@ h2 a:hover:active{
 
 
 /* Responsive */
-@media only screen and (max-width: 768px) {
-    body{
-        height: auto;
-    }
+@media screen and (max-width: 480px) {
+
     .dave1{
-        height: 50%;
-        width: 80%;
-        padding-bottom: 5%;
+        height: 250px;
+        width: 400px;
+        padding-bottom: 2%;
     }
     .mega-band{
-        height: 50%;
-        width: 80%;
-        padding-bottom: 5%;
+        height: 250px;
+        width: 400px;
+        padding-bottom: 20px;
     }
 }
-

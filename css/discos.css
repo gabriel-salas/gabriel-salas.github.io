@@ -1,6 +1,19 @@
-.container-fluid{
-    height: 200%;
+/* .tablas{
+    height: 960px;
+    width: 1200px;
+} */
+body{
+    min-height: 170vh!important;
 }
+
+.tablas{
+    position: absolute;
+    height: 960px;
+    width: 1200px;
+    top: 22%;
+    left: 5%;
+}
+
 .titulo{
     margin-top: 1%;
     text-align: center;
@@ -11,7 +24,8 @@
 ============================================================================
 */
 caption {
-padding: 10px;
+    color: rgba(245, 245, 245, 0.76)!important;
+    padding: 10px;
 }
 table{
     width: 60%!important;
@@ -20,6 +34,7 @@ table{
     caption-side: top!important;
     color: orange!important;
     border-collapse: collapse!important;
+    padding-bottom: 1%;
 }
 
 th, td{
