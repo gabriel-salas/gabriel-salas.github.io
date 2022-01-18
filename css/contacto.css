@@ -1,3 +1,7 @@
+.contenedor{
+    height: auto;
+    width: auto;
+}
 .contacto{
     margin-top: 1%;
     text-align: center;
@@ -22,7 +26,7 @@
     }
     .tarjeta{
         position: absolute;
-        left: 14%;
+        left: 200px;
         top: 30%;
     }
 }
